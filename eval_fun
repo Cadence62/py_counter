@@ -1,0 +1,8 @@
+# /usr/bin/python
+# coding=utf-8
+
+while True:
+    str = raw_input('请你输入你要计算的表达式：\(不用输入”=“号\) 输入q 退出\n')
+    if str == 'q':
+        exit()
+    print eval(str)
